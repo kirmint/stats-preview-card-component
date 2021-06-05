@@ -38,7 +38,10 @@ h3 > span {
 img {
   width: 100%;
   border-radius: var(--border-radius) var(--border-radius) 0 0;
-  opacity: 0.4;
+  opacity: 0.8;
+  mix-blend-mode: multiply;
+  object-fit: cover;
+  display: block;
 }
 
 .card-container {
@@ -58,7 +61,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 2em;
+  padding: 2em;
 }
 
 .title {
@@ -115,8 +118,7 @@ img {
   }
 
   .content-container {
-    width: 100%;
-    margin: 2em 5em;
+    padding: 2em 0.5em 2em 5em;
   }
 
   .image-container {
