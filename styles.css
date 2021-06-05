@@ -60,7 +60,7 @@ img {
 .content-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 2em;
 }
 
@@ -109,7 +109,7 @@ img {
   }
 
   .text {
-    padding-right: 5em;
+    padding-right: 6em;
   }
 
   .card-container {
@@ -128,7 +128,7 @@ img {
 
   .stats {
     flex-direction: row;
-    padding-right: 6em;
+    padding-right: 10em;
     justify-content: space-between;
   }
 }
